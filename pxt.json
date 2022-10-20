@@ -1,5 +1,5 @@
 {
-    "name": "activity randomizer",
+    "name": "randomized activity",
     "description": "",
     "dependencies": {
         "core": "*",
