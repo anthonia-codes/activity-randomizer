@@ -18,7 +18,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     random_number = randint(1, 6)
-    music.startMelody(music.builtInMelody(Melodies.Funk), MelodyOptions.ForeverInBackground)
+    music.startMelody(music.builtInMelody(Melodies.Blues), MelodyOptions.ForeverInBackground)
     if (random_number == 1) {
         basic.showString("Sit Down")
     } else if (random_number == 2) {
