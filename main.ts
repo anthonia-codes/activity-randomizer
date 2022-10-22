@@ -1,5 +1,6 @@
 let random_number = 0
 input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
     basic.showString("Feel...")
     basic.showIcon(IconNames.Happy)
     basic.pause(2000)
@@ -24,6 +25,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 basic.forever(function () {
+    basic.clearScreen()
     basic.showString("YOU'RE")
     basic.showIcon(IconNames.Sad)
     basic.pause(2000)
